@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_guide/widgets/chart.dart';
 import 'package:flutter_complete_guide/widgets/new_transaction.dart';
 
 import 'models/transaction.dart';
@@ -9,6 +8,11 @@ import 'widgets/chart.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+
+  int testingMethod() {
+    return 3;
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
