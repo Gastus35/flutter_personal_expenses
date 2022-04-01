@@ -22,7 +22,7 @@ void main() {
   testWidgets('Fake test that verifies a value and fails', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     final MyApp app = MyApp();
-    expect(0, app.testingMethod());
+    expect(3, app.testingMethod());
 
   });
 }
